@@ -49,6 +49,7 @@ const Navbar = ({ filters, setFilters }) => {
     return (
         <nav id="navbar">
             <div className="navbar-container">
+                <img src="/logo.jpg" alt=""style={{ width: "60px", height: "auto" }} />
                 <p className="navbar-logo">SWEN</p>
                 <div className="navbar-filters">
                     <select name="category" value={filters.category} onChange={handleChange}>
